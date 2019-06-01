@@ -1,7 +1,7 @@
 package libmodsecurity
 
-// #cgo CFLAGS: -I/usr/local/modsecurity/include
-// #cgo LDFLAGS: -L/usr/local/modsecurity/lib -lmodsecurity
+// #cgo CFLAGS: -I/server/local/include
+// #cgo LDFLAGS: -L/server/local/lib -lmodsecurity
 // #include <modsecurity/modsecurity.h>
 // #include <modsecurity/transaction.h>
 // #include <modsecurity/rules.h>
