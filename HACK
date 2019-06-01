@@ -1,7 +1,7 @@
 ## fix config files being available
 
-% cp -a $ModSecurity/examples/simple_example_using_c/unicode.mapping .
-% cp -a $ModSecurity/examples/simple_example_using_c/basic_rules.conf .
+% cp -a $ModSecurity/unicode.mapping .
+% cp -a $ModSecurity/basic_rules.conf .
 
 ## fix lib lookup
 You need to have libmodsecurity modules available to lookup from Go
