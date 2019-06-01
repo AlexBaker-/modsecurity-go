@@ -1,8 +1,5 @@
 package main
 
-// #cgo CFLAGS: -I/server/local/include
-// #cgo LDFLAGS: -L/server/local/lib -lmodsecurity
-
 import (
 	"github.com/sirupsen/logrus"
 
