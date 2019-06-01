@@ -116,7 +116,8 @@ func (t *Transaction) AddResponseHeader(key, value string) {
 }
 
 func (t *Transaction) ProcessResponseHeader() {
-	C.msc_process_response_headers(t.trans)
+	cs := C.CString("HTTP 1.3")
+	C.msc_process_response_headers(t.trans, 200, cs)
 }
 
 func (t *Transaction) AppendResponseBody(body []byte) {
