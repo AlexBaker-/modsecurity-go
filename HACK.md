@@ -1,3 +1,10 @@
+## Prepping libmodsecurity environment
+
+TODO: compiling to /server/...
+
+TL;DR: Follow compilation recipe: https://github.com/SpiderLabs/ModSecurity/wiki/Compilation-recipes-for-v3.x
+./configure --prefix=/server/local
+
 ## fix config files being available
 
 % cp -a $ModSecurity/unicode.mapping .

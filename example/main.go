@@ -24,7 +24,7 @@ func main() {
 		1)
 	tr.ProcessRequestHeader()
 	tr.ProcessRequestBody()
-	tr.ProcessResponseHeader()
+	tr.ProcessResponseHeader(200, "HTTP/1.1")
 	tr.ProcessResponseBody()
 
 }
